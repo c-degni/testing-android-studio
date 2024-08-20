@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.app.Activity;
 
+// ACTIVITIES
 public class MainActivity extends Activity {
     String msg = "Android: ";
 
@@ -49,5 +50,5 @@ public class MainActivity extends Activity {
         super.onDestroy();
         Log.d(msg,"onDestroy() event");
     }
-
 }
+
